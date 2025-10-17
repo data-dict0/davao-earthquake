@@ -242,7 +242,7 @@ async function createChart() {
     addAnnotation(
         new Date(2025, 9, 10, 9, 46),
         new Date(2025, 9, 10, 9, 50),
-        'The 7.4-magnitude earthquake hit off the coast of Davao Oriental at 9:43 a.m.<br><br>Aftershocks followed.',
+        'The 7.4-magnitude earthquake hit off the coast of Davao Oriental at 9:43 a.m.<br><br>Aftershocks and other earthquakes followed.',
         'right'
     );
 
@@ -256,7 +256,7 @@ async function createChart() {
     addAnnotation(
         new Date(2025, 9, 10, 11, 40),
         new Date(2025, 9, 10, 11, 50),
-        'By the second hour, there were already 25 aftershocks, with one at 5.8 magnitude.',
+        'By the second hour, there were already 25 earthquakes around the same area, with one at 5.8 magnitude.',
         'right'
     );
 
@@ -277,7 +277,7 @@ async function createChart() {
     addAnnotation(
         new Date(2025, 9, 11, 0, 0),
         new Date(2025, 9, 11, 0, 20),
-        'By the end of Oct. 10, <strong>229 aftershocks</strong> had been recorded, data from state volcanologists showed.',
+        'By the end of Oct. 10, <strong>229 earthquakes, mostly aftershocks,</strong> had been recorded, data from state volcanologists showed.',
         'right'
     );
 
