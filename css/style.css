@@ -8,6 +8,9 @@ html,
 body {
   font: 'Roboto';
   text-rendering: optimizeLegibility;
+  background: #0a0e27;
+  color: #fff;
+  overflow-x: hidden;
 }
 
 .real-title {
@@ -28,13 +31,6 @@ body {
   margin-bottom: auto;
   color: #ffffff;
   font-size: 18px;
-}
-
-
-body {
-  background: #0a0e27;
-  color: #fff;
-  overflow-x: hidden;
 }
 
 #container {
@@ -129,7 +125,7 @@ svg {
     font-weight: bold;
   }
 
-   .dek {
+  .dek {
     text-align: center !important;
     justify-content: center;
     position: relative;
@@ -172,6 +168,10 @@ svg {
   .magnitude-label {
     font-size: 10px;
   }
+
+  .col-lg-7 {
+    margin: 12px;
+  }
 }
 
 .magnitude-label {
@@ -181,10 +181,6 @@ svg {
   font-family: 'Roboto', sans-serif;
   text-anchor: middle;
   pointer-events: none;
-}
-
-.tooltip.show {
-  opacity: 1;
 }
 
 .loading {

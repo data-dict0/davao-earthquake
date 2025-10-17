@@ -168,7 +168,7 @@ async function createChart() {
                 .attr('x', width / 2 - 30)
                 .attr('y', y + 4)
                 .style('font-weight', isHourMark ? 'bold' : 'normal')
-                .style('font-size', isHourMark ? '14px' : '12px')
+                .style('font-size', isHourMark ? '14px' : '10px')
                 .text(
                     d3.timeFormat(isHourMark ? '%b %d, %I:%M %p' : '%I:%M')(time)
                 );
@@ -184,15 +184,15 @@ async function createChart() {
         if (side === 'left') {
             // Left-side milestone annotations
             g.append('foreignObject')
-                .attr('x', isMobile ? -margin.left + 5 : -margin.left + 500)
+                .attr('x', isMobile ? -margin.left + 20 : -margin.left + 500)
                 .attr('y', annotationY - 40)
-                .attr('width', isMobile ? margin.left - 10 : margin.left - 20)
+                .attr('width', isMobile ? margin.left + 5 : margin.left - 20)
                 .attr('height', 80)
                 .append('xhtml:div')
                 .style('font-size', leftFontSize)
                 .style('color', 'rgba(255, 255, 255, 0.4)')
                 .style('line-height', '1.4')
-                .style('text-align', 'right')
+                .style('text-align', 'left')
                 .style('padding-right', isMobile ? '3px' : '10px')
                 .style('padding', '8px')
                 .html(text);
@@ -205,7 +205,7 @@ async function createChart() {
                 .attr('x', isMobile ? mobileXOffset : width - 550)
                 .attr('y', annotationY - (options.offsetY || 100))
                 .attr('width', isMobile ? mobileWidth : margin.right + 200)
-                .attr('height', options.height || 120)
+                .attr('height', options.height || 140)
                 .append('xhtml:div')
                 .style('font-size', fontSize)
                 .style('color', 'rgba(255, 255, 255, 0.8)')
