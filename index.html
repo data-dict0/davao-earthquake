@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 user-scalable=no"
+    />
+    <script
+      src="https://kit.fontawesome.com/092b142fb0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <title>How Davao shook by the minute</title>
+    <meta charset="utf-8" />
+    <meta property="og:title" content="How Davao shook by the minute" />
+    <meta
+      property="og:description"
+      content="Here's how the earth moved under Davao Oriental on the first 48 hours since a major earthquake."
+    />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:image"
+      content="https://data-dict0.github.io/davao-earthquake/assets/share-card.png"
+    />
+    <meta property="og:image:width" content="1000" />
+    <meta property="og:image:height" content="500" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@prinzmagtulis" />
+
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  </head>
+  <body>
+    <div class="loading" id="loading">Loading earthquake data...</div>
+    <div class="header" id="header" style="display: none">
+      <div class="subtitle" id="subtitle"></div>
+    </div>
+    <p class="real-title">How Davao shook by the minute</p>
+    <p class="dek">
+          <em
+            >Here's how the earth moved under Davao Oriental on the first 48 hours since
+            a major earthquake <br> Oct. 17, 2025
+          </em>
+    <div id="container" style="display: none">
+      <div id="chart-container"></div>
+    </div>
+    <div class="scroll-hint" id="scroll-hint" style="display: none">
+      ↓ Scroll to move through time ↓
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <div class="row justify-content-md-center mt-3">
+      <div class="col-lg-7">
+        <p class="h6">Source</p>
+        <p>Phivolcs</p>
+        <em
+          >Copyright 2025 - The
+          <a href="https://www.data-dict.com" target="_blank"
+            >Data Dictionary</a
+          >
+          Project
+        </em>
+      </div>
+    </div>
+    <br />
+  </body>
+</html>
