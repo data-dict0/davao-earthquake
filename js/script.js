@@ -298,7 +298,7 @@ async function createChart() {
     addAnnotation(
         new Date(2025, 9, 11, 2, 30),
         new Date(2025, 9, 11, 2, 40),
-        'Similar to the main earthquake, most aftershocks hit offshore, although some hit land.',
+        'Similar to the main earthquake, most aftershocks hit offshore, even as some hit land.',
         'right'
     );
 
